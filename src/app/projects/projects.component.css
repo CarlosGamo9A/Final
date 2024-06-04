@@ -1,0 +1,34 @@
+.projects-container {
+  text-align: center;
+}
+
+.botones-container {
+  margin-top: 50px;
+}
+
+.boton-alquiler,
+.boton-venta,
+.boton-fabricacion {
+  padding: 20px 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #007bff; 
+  color: white;
+  cursor: pointer;
+  margin: 0 20px;
+  transition: background-color 0.3s;
+}
+
+.boton-alquiler:hover,
+.boton-venta:hover,
+.boton-fabricacion:hover {
+  background-color: #45a049; /* Verde más oscuro */
+}
+
+.boton-alquiler:focus,
+.boton-venta:focus,
+.boton-fabricacion:focus {
+  outline: none;
+}
+

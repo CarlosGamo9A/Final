@@ -1,0 +1,30 @@
+<header>
+  <div class="back-button" (click)="return()">
+    <img src="assets/icon/arrow-back-outline.png" alt="Back" style="width: 24px; height: 24px;">
+  </div>
+  <h1>Firma Cliente</h1>
+</header>
+
+<div class="content">
+  <div class="row">
+    <div class="col-12">
+      <label>INGRESE SU FIRMA:</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <canvas class="signature-pad-canvas" #canvas width="900" height="900" style="touch-action: none;"></canvas>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="row">
+    <div class="col-6 text-center">
+      <button class="button" [disabled]="isCanvasBlank()" (click)="saveSignature()">Grabar</button>
+    </div>
+    <div class="col-6 text-center">
+      <button class="button" (click)="clear()">Limpiar</button>
+    </div>
+  </div>
+</footer>

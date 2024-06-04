@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+header h1, footer h1 {
+  margin: 0;
+}
+
+.back-button {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  cursor: pointer;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.signature-pad-canvas {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  margin: 0.5rem;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

@@ -1,0 +1,10 @@
+/* Estilos para el input de archivo */
+input[type="file"] {
+  width: 100%;
+}
+
+/* Estilos para el contenedor de la tabla */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
